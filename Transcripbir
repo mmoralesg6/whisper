@@ -1,0 +1,7 @@
+import os
+
+# Ruta del archivo de audio
+ruta_audio = r'C:\Users\MarioMorales\Downloads\Esencia Crística Clase 13 21052025.m4a'
+
+# Ejecutar Whisper con modelo base y en idioma español
+os.system(f'whisper "{ruta_audio}" --model base --language Spanish')
